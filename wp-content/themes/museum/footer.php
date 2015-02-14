@@ -14,9 +14,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'museum' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'museum' ), 'Museum', '<a href="http://themes.redradar.net" rel="designer">Kelly Dwan & Mel Choyce</a>' ); ?>
+			Copyright Maxime, Nicolas, Pierre et Stanislas
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

@@ -4,7 +4,7 @@ Template Name: Simple Page
 */
 ?>
  
-<?php get_header(); ?>
+<?php include('header2.php'); ?>
 
     <?php while ( have_posts() ) : the_post(); ?>
 

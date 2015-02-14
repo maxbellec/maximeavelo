@@ -11,10 +11,9 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Les Roues Libres | Un tour du monde à vélo</title>
+<title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="icon" href="/wp-content/uploads/bike.png" type="image/x-icon" />
 
 <?php wp_head(); ?>
 <!--[if lt IE 9]>
@@ -35,7 +34,7 @@
 		</div>
 	</nav><!-- #site-navigation -->
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header" role="banner" style="display:none">
 		<?php $header_position = get_theme_mod( 'header_position', 'right' ); ?>
 		<div class="site-branding text-<?php echo $header_position; ?>">
 
@@ -52,4 +51,3 @@
 		</div>
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
