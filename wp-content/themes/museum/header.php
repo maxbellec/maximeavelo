@@ -31,6 +31,23 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'museum' ); ?></a>
 		<div class="nav-wrapper">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'main-menu' ) ); ?>
+			<ul id="menu-test" class="main-menu" style="float:right;">
+				
+				<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-25" style="margin-top:12px">
+<?php echo smlsubform(array(
+                                    'prepend' => '',
+                                    'showname' => false,
+                                    'nametxt' => 'Name:',
+                                    'nameholder' => 'Name...',
+                                    'emailtxt' => 'Newsletter',
+                                    'emailholder' => 'nom@example.com',
+                                    'showsubmit' => true,
+                                    'submittxt' => 'OK',
+                                    'jsthanks' => false,
+                                    'thankyou' => 'Merci pour votre inscription.'
+                                ));?>
+				</li>
+			</ul>
 			<?php wp_nav_menu( array( 'theme_location' => 'social', 'menu_class' => 'social-menu' ) ); ?>
 		</div>
 	</nav><!-- #site-navigation -->

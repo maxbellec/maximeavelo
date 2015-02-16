@@ -97,7 +97,7 @@ add_filter( 'comment_form_default_fields', 'museum_comment_fields' );
  */
 function museum_comment_form( $args ){
 	$args['comment_notes_after'] = '';
-	$args['comment_field']       = '<p class="comment-form-comment clearfix"><label for="comment">' . __( 'What is your message?', 'museum' ) . '</label><textarea id="comment" name="comment" cols="45" rows="5" aria-required="true"></textarea></p>';
+	$args['comment_field']       = '<p class="comment-form-comment clearfix"><label for="comment">' . __( 'Votre message', 'museum' ) . '</label><textarea id="comment" name="comment" cols="45" rows="5" aria-required="true"></textarea></p>';
 	return $args;
 }
 add_filter( 'comment_form_defaults', 'museum_comment_form' );

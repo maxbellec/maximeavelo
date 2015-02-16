@@ -33,6 +33,43 @@ and Blueprint http://www.blueprintcss.org/
 /* @end */
 /* =Reset
 -------------------------------------------------------------- */
+
+/* Added by me, Maxime*/
+.sml_email{
+    display:inline;
+    margin-bottom:0px;
+}
+
+.sml_submit{
+    display:inline;
+}
+
+.sml_name{
+    display:none;
+}
+
+.sml_submitbtn{
+    padding: 0.8em 1.4em 0.6em !important;
+}
+
+.sml_emaillabel{
+    color:white;
+}
+
+.sml_thankyou{
+    background:rgb(124, 205, 124);
+    border: 1px solid green;
+    border-radius: 3px;
+    color: black;
+}
+
+.color-legend{
+width: 10px;
+height: 10px;
+display: inline-block;
+margin-left: 5px;
+margin-right: 5px;
+}
 html,
 body,
 div,
