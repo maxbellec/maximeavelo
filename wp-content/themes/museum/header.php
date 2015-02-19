@@ -43,7 +43,7 @@
                                     'emailholder' => 'nom@example.com',
                                     'showsubmit' => true,
                                     'submittxt' => 'OK',
-                                    'jsthanks' => false,
+                                    'jsthanks' => true,
                                     'thankyou' => 'Merci pour votre inscription.'
                                 ));?>
 				</li>
