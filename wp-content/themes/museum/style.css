@@ -1559,6 +1559,7 @@ body.archive .hentry .post-link:focus {
 }
 body.blog .hentry .post-link:focus .entry-header,
 body.archive .hentry .post-link:focus .entry-header {
+  /*MAXIME*/
   opacity: 1;
 }
 body.blog .hentry .entry-image,
@@ -1674,7 +1675,7 @@ body.archive.home:not(.paged) .hentry:nth-of-type(odd) {
 /* MAXIME remettre a 0 pour n'afficher les titres de l'accueil que quand on passe la souris dessus*/
 body.blog .with-image .entry-header,
 body.archive .with-image .entry-header {
-  opacity: 0;
+  opacity: 1;
 }
 body.blog .with-image .entry-header .entry-title:after,
 body.archive .with-image .entry-header .entry-title:after {
