@@ -35,6 +35,21 @@ and Blueprint http://www.blueprintcss.org/
 -------------------------------------------------------------- */
 
 /* Added by me, Maxime*/
+.img-center{
+  z-index: 100;
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+#site-navigation{
+background-color: rgb(179, 155, 118);
+}
+#page{
+background-image: url(http://lesroueslibres.com/wp-content/uploads/g.jpg);
+}
 .photo-equipe-container{
 width: 50%;
 margin-right: auto;

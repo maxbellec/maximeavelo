@@ -5,6 +5,14 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<?php //if (strpos(get_post_class(), 'category-videos')){echo "video !!!!";}
+	foreach (get_post_class() as $str){
+	    if($str=='category-videos'){echo "<div><img src='http://birkeys.com/staged/images/video-play.png'/ class='img-center'></div>";break;}
+	    elseif ($str=='category-articles'){echo "<div><img src='http://www.foundationschurch.org/wp-content/uploads/2013/09/Notepad-Icon.png'/ class='img-center'></div>";break;}
+	    elseif ($str=='category-photo'){echo "<div><img src='https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-camera-128.png'/ class='img-center'></div>";break;}
+	}
+	// echo "###test"
+	?>
 	<a href="<?php the_permalink(); ?>" rel="bookmark" class="post-link">
 		<?php if ( ! is_search() ) : ?>
 			<?php if ( has_post_thumbnail() ): ?>
