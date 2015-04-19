@@ -45,10 +45,11 @@ and Blueprint http://www.blueprintcss.org/
   margin-left: -10%;
 }
 #site-navigation{
-background-color: rgb(179, 155, 118);
+background-color: rgb(181, 181, 181);
 }
 #page{
-background-image: url(http://lesroueslibres.com/wp-content/uploads/g.jpg);
+/*background-image: url(http://lesroueslibres.com/wp-content/uploads/g.jpg);*/
+background-color: white;
 }
 .photo-equipe-container{
 width: 50%;
@@ -404,13 +405,13 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   padding: 1em 2.4em 0.8em;
-  background: #a52020;
+  background: #575757;
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1;
-  border: 1px solid #901c1c;
+  border: 1px solid #303030;
   text-shadow: none;
   text-transform: uppercase;
   box-shadow: none;
@@ -1104,7 +1105,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: #a52020;
+  color: #575757;
 }
 body {
   background: #f5f5f5;
@@ -1158,7 +1159,7 @@ body.error404 .site-main,
 }
 #secondary {
   color: #ffffff;
-  background: #a52020;
+  background: #575757;
 }
 .secondary-content {
   overflow: hidden;
@@ -1454,7 +1455,7 @@ body.error404 .site-main,
 }
 .entry-content a,
 .entry-summary a {
-  color: #a52020;
+  color: #575757;
 }
 .entry-content a:hover,
 .entry-summary a:hover,
@@ -1470,11 +1471,11 @@ body.error404 .site-main,
   font-style: italic;
   font-size: 14px;
   font-size: 0.875rem;
-  color: #a52020;
+  color: #575757;
   color: #444444;
 }
 .entry-meta a {
-  color: #a52020;
+  color: #575757;
 }
 .entry-meta a:hover,
 .entry-meta a:active,
@@ -1613,9 +1614,13 @@ body.archive .hentry .entry-header a {
 }
 body.blog.home:not(.paged) .hentry:first-of-type,
 body.archive.home:not(.paged) .hentry:first-of-type {
-  float: none;
+/*MAXIME*/
+  float: none !important;
   height: auto;
   width: 100%;
+  max-width:700px;
+  margin-left:auto;
+  margin-right:auto;
 }
 body.blog.home:not(.paged) .hentry:first-of-type .entry-header,
 body.archive.home:not(.paged) .hentry:first-of-type .entry-header {
@@ -1698,7 +1703,7 @@ body.archive .with-image .entry-excerpt {
 .page-header .page-title {
   margin: 0;
   padding: 0 0 20px;
-  color: #a52020;
+  color: #575757;
 }
 .page-header p {
   margin: 0 0 20px;
@@ -1734,7 +1739,7 @@ body.single .entry-title,
 body.page .entry-title {
   margin: 0 0 40px;
   padding: 0 0 20px;
-  color: #a52020;
+  color: #575757;
   border-bottom: 1px solid #eeeeee;
 }
 /* @end */
@@ -1982,14 +1987,14 @@ body.page .entry-title {
   font-style: italic;
   font-size: 14px;
   font-size: 0.875rem;
-  color: #a52020;
+  color: #575757;
   font-weight: 700;
   font-size: 16px;
   font-size: 1rem;
 }
 .single .navigation a,
 .page .navigation a {
-  color: #a52020;
+  color: #575757;
 }
 .single .navigation a:hover,
 .page .navigation a:hover,
@@ -2018,10 +2023,10 @@ body.page .entry-title {
   font-style: italic;
   font-size: 14px;
   font-size: 0.875rem;
-  color: #a52020;
+  color: #575757;
 }
 .comment-navigation a {
-  color: #a52020;
+  color: #575757;
 }
 .comment-navigation a:hover,
 .comment-navigation a:active,
@@ -2048,7 +2053,7 @@ body.page .entry-title {
 .comments-title,
 #reply-title {
   margin: 60px 0 40px;
-  color: #a52020;
+  color: #575757;
   font-size: 30px;
   font-size: 1.875rem;
 }
@@ -2082,12 +2087,12 @@ li.comment article .comment-meta .comment-metadata {
   font-style: italic;
   font-size: 14px;
   font-size: 0.875rem;
-  color: #a52020;
+  color: #575757;
   font-size: 12px;
   font-size: 0.75rem;
 }
 li.comment article .comment-meta .comment-metadata a {
-  color: #a52020;
+  color: #575757;
 }
 li.comment article .comment-meta .comment-metadata a:hover,
 li.comment article .comment-meta .comment-metadata a:active,
@@ -2122,7 +2127,7 @@ li.comment article .reply {
   font-style: italic;
   font-size: 14px;
   font-size: 0.875rem;
-  color: #a52020;
+  color: #575757;
   text-align: center;
 }
 li.comment article .reply:before,
@@ -2136,7 +2141,7 @@ li.comment article .reply:after {
   clear: both;
 }
 li.comment article .reply a {
-  color: #a52020;
+  color: #575757;
 }
 li.comment article .reply a:hover,
 li.comment article .reply a:active,
@@ -2169,7 +2174,7 @@ li.pingback {
   font-size: 0.875rem;
 }
 li.pingback a {
-  color: #a52020;
+  color: #575757;
 }
 li.pingback a:hover,
 li.pingback a:active,
@@ -2181,12 +2186,12 @@ li.pingback a:focus {
   font-style: italic;
   font-size: 14px;
   font-size: 0.875rem;
-  color: #a52020;
+  color: #575757;
   font-size: 16px;
   font-size: 1rem;
 }
 .comment-respond #cancel-comment-reply-link a {
-  color: #a52020;
+  color: #575757;
 }
 .comment-respond #cancel-comment-reply-link a:hover,
 .comment-respond #cancel-comment-reply-link a:active,
@@ -2194,7 +2199,7 @@ li.pingback a:focus {
   color: #500f0f;
 }
 .comment-respond a {
-  color: #a52020;
+  color: #575757;
 }
 .comment-respond a:hover,
 .comment-respond a:active,
@@ -2202,7 +2207,7 @@ li.pingback a:focus {
   color: #500f0f;
 }
 .comment-respond .required {
-  color: #a52020;
+  color: #575757;
 }
 .no-comments,
 .comment-notes {
